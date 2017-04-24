@@ -1,1 +1,114 @@
-<p>This is the main view.</p>
+<!--<div class="myheader"></div>-->
+
+<!--Image Section-->
+<ul class="resources full-height">
+    <li class="full-width full-height">
+        <div class="image full-height"></div>
+        <div class="resource_info large">
+            <h2>Hello,</h2>
+            <hr>
+            <p class="description">{{me.one}}</p>
+            <p class="description">{{me.two}}</p>
+            <p class="description">{{me.three}}</p>
+            <p class="description">{{me.four}}</p>
+            <hr class="full">
+            <div id="logo-wrap">
+                <a target="_blank" href="https://codepen.io/johnsephr/" class="unset"><img src="../images/codepen-copy.png" alt="codepen"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/john-ramsey-ba6684111/" class="unset"><img src="../images/linkedin-copy.png" alt="linkedin"></a>
+                <a target="_blank" href="https://github.com/johnsephr" class="unset"><img src="../images/github-copy.png" alt="github"></a>
+            </div>
+        </div>
+    </li>
+</ul>
+
+<!--Work Section-->
+
+<div class="myheader">
+    <p>Work</p>
+</div>
+
+<div class="examples-wrapper">
+    <ul class="resources work">
+        <li>
+            <img src="../images/work-1-square.png">
+            <div class="resource_info">
+                <h2>Work Machines</h2>
+                <hr>
+                <p class="description">{{work.one}}</p>
+                <a target="_blank" href="https://workmachines-a3578.firebaseapp.com/#!/" class="button">Take A Look</a>
+            </div>
+        </li>
+        <li>
+            <img src="../images/work-2-square.png">
+            <div class="resource_info">
+                <h2>Armstrong Wedding</h2>
+                <hr>
+                <p class="description">{{work.two}}</p>
+                <a href="http://www.ramseyarmstrongwedding.com/" target="_blank" class="button">Take A Look</a>
+            </div>
+        </li>
+
+        <li class="full-width">
+            <img src="../images/work-3-wide.png">
+            <div class="resource_info">
+                <h2>RHC Consulting</h2>
+                <hr>
+                <p class="description">{{work.three}}</p>
+                <a href="http://www.rhcconsult.com/" target="_blank" class="button">Take A Look</a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<!--Projects Section-->
+
+<div class="myheader">
+    <p>Projects</p>
+</div>
+
+<div class="examples-wrapper-2">
+    <ul class="resources projects">
+        <li>
+            <img src="../images/project-1-square.png">
+            <div class="resource_info">
+                <h2>Responsive Job Boards Site</h2>
+                <hr>
+                <p class="description">{{project.one}}</p>
+                <a target="_blank" href="https://awesome-fdb5d.firebaseapp.com/#!/" class="button">Take A Look</a>
+            </div>
+        </li>
+        <li>
+            <img src="../images/project-2-square.png">
+            <div class="resource_info">
+                <h2>Ecommerce Design</h2>
+                <hr>
+                <p class="description">{{project.two}}</p>
+                <a href="https://ecommerce-8fa4b.firebaseapp.com/" target="_blank" class="button">Take A Look</a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<!--Contact Section-->
+
+<div class="myheader">
+    <p>Contact</p>
+</div>
+<div class="contactform">
+    <form class="contact-form" action="https://formspree.io/ramseyjohnjoseph@gmail.com" method="POST">
+        <input class="input-box" type="text" name="name" placeholder="Name">
+
+        <input class="input-box" type="number" name="_telephone" placeholder="Telephone">
+
+        <input class="input-box" type="email" name="_replyto" placeholder="Email">
+
+        <textarea class="text-area" name="_message" placeholder="Ask Me Anything..."></textarea>
+
+        <input class="submit button" value="Send" name="action" type="submit" value="send">
+
+        <!-- Formspree config -->
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="hidden" name="_subject" value="Job Inquiry" />
+        <input type="hidden" name="_next" value="https://johnsephr.me/#/thankyou">
+    </form>
+</div>
